@@ -5,7 +5,7 @@
 {
     "sorular":[ /* "sorular" adında bir dizi oluşturuluyor */
         { /* Dizi içindeki ilk nesne başlıyor */
-            "soru": "Aşağıdakilerden hangisi Javascript ile açılır pencerede yazdırma komutudur ?", /* Soru metni */
+            "sorulan": "Aşağıdakilerden hangisi Javascript ile açılır pencerede yazdırma komutudur ?", /* Soru metni */
             "secenekA": "alert()", /* A seçeneği */
             "secenekB": "document.write()", /* B seçeneği */
             "secenekC": "console.write()", /* C seçeneği */
@@ -13,7 +13,7 @@
             "cevap":"secenekA" /* Doğru cevap */
         }, /* İlk nesne bitti */
         { /* Dizi içindeki ikinci nesne başlıyor */
-            "soru": "Aşağıdakilerden hangisi Javascript'in harici veri saklama yapılarından değildir ?", /* Soru metni */
+            "sorulan": "Aşağıdakilerden hangisi Javascript'in harici veri saklama yapılarından değildir ?", /* Soru metni */
             "secenekA": "Javascript Object", /* A seçeneği */
             "secenekB": "JSON", /* B seçeneği */
             "secenekC": "MySql", /* C seçeneği */

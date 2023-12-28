@@ -1,0 +1,55 @@
+*{ /* Tüm HTML elemanlarının kutu modelini sınır kutusu olarak ayarlar, tüm kenar boşluklarını ve dolgularını sıfırlar */
+    box-sizing: border-box; /* Kutu modelini sınır kutusu olarak ayarlar */
+    margin: 0; /* Kenar boşluklarını sıfırlar */
+    padding: 0; /* Dolguları sıfırlar */
+}
+html{ /* HTML belgesindeki tüm yazıların boyutunu 10 piksel olarak ayarlar */
+    font-size: 10px; /* Yazı boyutunu 10 piksel olarak ayarlar */
+}
+body{ /* Body'nin arka plan rengini bisque olarak ayarlar, yüksekliğini tam ekran yapar ve taşmayı gizler. Ayrıca içeriklerini merkeze hizalar */
+    display: flex; /* İçeriklerini bir flex kutusu olarak düzenler */
+    justify-content: center; /* İçeriklerini yatay eksende merkeze hizalar */
+    align-items: center; /* İçeriklerini dikey eksende merkeze hizalar */
+    background-color: bisque; /* Arka plan rengini bisque olarak ayarlar */
+    height: 100vh; /* Yüksekliğini tam ekran yapar */
+    overflow: hidden; /* Taşmayı gizler */
+}
+#sinav{ /* #sinav id'li elemanın genişliğini 60rem olarak ayarlar, arka plan rengini burlywood yapar, köşelerini yuvarlar ve gölge ekler */
+    width: 60rem; /* Genişliğini 60rem olarak ayarlar */
+    background-color: burlywood; /* Arka plan rengini burlywood yapar */
+    border-radius: 1rem; /* Köşelerini yuvarlar */
+    overflow: hidden; /* Taşmayı gizler */
+    box-shadow: 0 0 1rem 0.2rem lightgray; /* Gölge ekler */
+}
+.soruAlani{ /* .soruAlani sınıfına sahip elemanların dolgusunu 4rem olarak ayarlar */
+    padding: 4rem; /* Dolgusunu 4rem olarak ayarlar */
+}
+h2{ /* h2 başlıklarının metin hizalamasını merkeze alır ve üst dolgusunu 1rem yapar */
+    text-align: center; /* Metin hizalamasını merkeze alır */
+    padding: 1rem; /* Üst dolgusunu 1rem yapar */
+}
+ul{ /* ul elemanlarının liste stili özelliğini none yapar, yani liste öğelerinin önündeki noktaları kaldırır */
+    list-style: none; /* Liste stili özelliğini none yapar */
+}
+ul li{ /* ul elemanları içindeki li elemanlarının yazı boyutunu 2rem yapar ve üst ve alt kenar boşluklarını 1rem yapar */
+    font-size: 2rem; /* Yazı boyutunu 2rem yapar */
+    margin: 1rem 0; /* Üst ve alt kenar boşluklarını 1rem yapar */
+}
+ul li label{ /* ul elemanları içindeki li elemanları içindeki label elemanlarının imleci pointer yapar, yani imleç üzerine geldiğinde el şeklini alır */
+    cursor: pointer; /* İmleci pointer yapar */
+}
+button{ /* button elemanlarının arka plan rengini belirli bir renk yapar, genişliğini %100 yapar, blok seviyesinde görüntüler, imleci pointer yapar, dolgusunu ve yazı boyutunu ayarlar */
+    background-color: rgba(204, 90, 44); /* Arka plan rengini belirli bir renk yapar */
+    width: 100%; /* Genişliğini %100 yapar */
+    display: block; /* Blok seviyesinde görüntüler */
+    cursor: pointer; /* İmleci pointer yapar */
+    padding: 1rem; /* Dolgusunu 1rem yapar */
+    font-size: 1.5rem; /* Yazı boyutunu 1.5rem yapar */
+}
+button:hover{ /* button elemanlarının üzerine gelindiğinde arka plan rengini değiştirir */
+    background-color: rgb(190, 78, 33); /* Arka plan rengini değiştirir */
+}
+button:focus{ /* button elemanlarına odaklandığında (örneğin tıkladığında) arka plan rengini değiştirir ve dış çizgisini kaldırır */
+    background-color: rgb(153, 59, 22); /* Arka plan rengini değiştirir */
+    outline: none; /* Dış çizgisini kaldırır */
+}

@@ -1,0 +1,24 @@
+
+// JSON, veri depolama ve iletimi için kullanılan bir metin tabanlı formattır. Anahtar-değer çiftleriyle yapılandırılan bu format, web uygulamalarında sıkça kullanılır. Veriler, kolay okunabilir ve yazılabilir bir şekilde temsil edilir. Anahtarlar tırnak içinde yazılırken, değerler metin, sayı, dizi, nesne, boolean veya null olabilir
+
+
+{
+    "sorular":[ /* "sorular" adında bir dizi oluşturuluyor */
+        { /* Dizi içindeki ilk nesne başlıyor */
+            "soru": "Aşağıdakilerden hangisi Javascript ile açılır pencerede yazdırma komutudur ?", /* Soru metni */
+            "secenekA": "alert()", /* A seçeneği */
+            "secenekB": "document.write()", /* B seçeneği */
+            "secenekC": "console.write()", /* C seçeneği */
+            "secenekD": "document.querySelector()", /* D seçeneği */
+            "cevap":"secenekA" /* Doğru cevap */
+        }, /* İlk nesne bitti */
+        { /* Dizi içindeki ikinci nesne başlıyor */
+            "soru": "Aşağıdakilerden hangisi Javascript'in harici veri saklama yapılarından değildir ?", /* Soru metni */
+            "secenekA": "Javascript Object", /* A seçeneği */
+            "secenekB": "JSON", /* B seçeneği */
+            "secenekC": "MySql", /* C seçeneği */
+            "secenekD": "MongoDB", /* D seçeneği */
+            "cevap":"secenekA" /* Doğru cevap */
+        } /* İkinci nesne bitti */
+    ] /* Dizi bitti */
+}
